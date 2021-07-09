@@ -1,4 +1,3 @@
-# ABSTRACT: MongoDB v2 driver in Mojolicious
 use strict;
 use warnings;
 package Mojolicious::Plugin::Mongodbv2;
@@ -39,22 +38,23 @@ sub init {
 
 1;
 __END__
+
+# ABSTRACT: MongoDB v2 driver in Mojolicious
+
 =pod
 
 =encoding UTF-8
 
-=head1 NAME
+=begin html
 
-Mojolicious::Plugin::Mongodbv2 - MongoDB v2 driver in Mojolicious
-=for html <a href="https://travis-ci.com/EmilianoBruni/mojolicious-plugin-mongodbv2"><img src="https://travis-ci.com/EmilianoBruni/mojolicious-plugin-mongodbv2.svg?branch=main"></a>
+BUILD STATUS: <a href="https://travis-ci.com/EmilianoBruni/mojolicious-plugin-mongodbv2"><img src="https://travis-ci.com/EmilianoBruni/mojolicious-plugin-mongodbv2.svg?branch=main"></a>
 
-=head1 VERSION
-
-version 0.01
+=end html
 
 =head1 SYNOPSIS
 
 Provides helper to easy use MongoDB v2 drivers in Mojolicious application.
+
     plugin 'mongodbv2', {
         host => 'mongodb://localhost/mongodbv2',
         helper => 'db',
@@ -69,9 +69,13 @@ Provides helper to easy use MongoDB v2 drivers in Mojolicious application.
 All other options passed to the plugin are used to connect to MongoDB.
 
 =head1 HELPERS/ATTRIBUTES
+
 =head2 mongodb_connection
+
 This plugin helper will return the MongoDB::MongoClient object
+
 =head2 db
+
 This is the name of the default easy-access helper.
 
 =head1 BUGS/CONTRIBUTING
