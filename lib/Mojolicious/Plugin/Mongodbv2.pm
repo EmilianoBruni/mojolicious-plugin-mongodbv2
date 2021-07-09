@@ -26,6 +26,7 @@ sub register {
 }
 
 package Mojolicious::Plugin::Mongodbv2::Client;
+
 use Mojo::Base -base;
 
 has 'conf' => sub { {host => 'mongodb://localhost:27017/mongodbv2' } };
