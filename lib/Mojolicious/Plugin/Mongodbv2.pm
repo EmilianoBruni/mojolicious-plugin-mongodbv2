@@ -89,17 +89,6 @@ L<https://github.com/EmilianoBruni/mojolicious-plugin-mongodbv2/>.
 You can find documentation for this module with the perldoc command.
     perldoc Mojolicious::Plugin::Mongodbv2
 
-=head1 AUTHOR
-
-Emiliano Bruni <info AT ebruni.it>
-
-=head1 COPYRIGHT AND LICENSE
-
-This software is copyright (c) 2021 by Emiliano Bruni.
-
-This is free software; you can redistribute it and/or modify it under
-the same terms as the Perl 5 programming language system itself.
-
 =cut
 
 1;
