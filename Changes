@@ -1,0 +1,6 @@
+Changelog for Mojolicious-Plugin-MongoDBv2
+
+0.01 2021-07-09T14:57:13
+ - Removed 00.load.t that is automatically added by Dist::Zilla.
+ - Add modules, tests and others
+ - Initial commit
