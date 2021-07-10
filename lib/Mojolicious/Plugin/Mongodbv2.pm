@@ -49,7 +49,7 @@ __END__
 
 =begin html
 
-BUILD STATUS: <a href="https://travis-ci.com/EmilianoBruni/mojolicious-plugin-mongodbv2"><img src="https://travis-ci.com/EmilianoBruni/mojolicious-plugin-mongodbv2.svg?branch=main"></a>
+<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/EmilianoBruni/mojolicious-plugin-mongodbv2?style=plastic"> <a href="https://travis-ci.com/EmilianoBruni/mojolicious-plugin-mongodbv2"><img alt="Travis tests" src="https://img.shields.io/travis/com/EmilianoBruni/mojolicious-plugin-mongodbv2?label=Travis%20tests&style=plastic"></a>
 
 =end html
 
@@ -70,6 +70,7 @@ Provides helper to easy use MongoDB v2 drivers in Mojolicious application.
                                     (default: 'mongodb://localhost/mongodbv2')
     helper              (optional)  The name to give to the easy-access helper
                                     (default: 'db')
+
 All other options passed to the plugin are used to connect to MongoDB.
 
 =head1 HELPERS/ATTRIBUTES
@@ -91,6 +92,7 @@ L<https://github.com/EmilianoBruni/mojolicious-plugin-mongodbv2/>.
 =head1 SUPPORT
 
 You can find documentation for this module with the perldoc command.
+
     perldoc Mojolicious::Plugin::Mongodbv2
 
 =cut

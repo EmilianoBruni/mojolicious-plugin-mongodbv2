@@ -38,4 +38,16 @@ $t->get_ok('/connection')->status_is(200)->content_is('MongoDB::MongoClient');
 $t->get_ok('/dbname')->status_is(200)->content_is('mongodbv2');
 $t->get_ok('/coll/collname')->status_is(200)->content_is('collname');
 
+# change helper
+$pcfg->{helper} = 'foo';
+
+plugin 'mongodbv2', $pcfg;
+
+get '/dbname2' => sub {
+    my $s = shift;
+    $s->render(text => $s->foo->name);
+};
+
+$t->get_ok('/dbname2')->status_is(200)->content_is('mongodbv2');
+
 done_testing();
