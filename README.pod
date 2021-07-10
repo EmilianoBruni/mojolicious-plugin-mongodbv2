@@ -4,8 +4,7 @@
 
 Mojolicious::Plugin::Mongodbv2 - MongoDB v2 driver in Mojolicious
 
-=for html <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/EmilianoBruni/mojolicious-plugin-mongodbv2?style=plastic">
-<a href="https://travis-ci.com/EmilianoBruni/mojolicious-plugin-mongodbv2"><img src="https://img.shields.io/travis/com/EmilianoBruni/mojolicious-plugin-mongodbv2?label=Travis%20tests&style=plastic"></a>
+=for html <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/EmilianoBruni/mojolicious-plugin-mongodbv2?style=plastic"> <a href="https://travis-ci.com/EmilianoBruni/mojolicious-plugin-mongodbv2"><img src="https://img.shields.io/travis/com/EmilianoBruni/mojolicious-plugin-mongodbv2?label=Travis%20tests&style=plastic"></a>
 
 =head1 VERSION
 
