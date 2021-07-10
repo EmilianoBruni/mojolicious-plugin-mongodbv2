@@ -45,11 +45,15 @@ __END__
 
 =encoding UTF-8
 
+=begin :badge
+
 =begin html
 
 BUILD STATUS: <a href="https://travis-ci.com/EmilianoBruni/mojolicious-plugin-mongodbv2"><img src="https://travis-ci.com/EmilianoBruni/mojolicious-plugin-mongodbv2.svg?branch=main"></a>
 
 =end html
+
+=end :badge
 
 =head1 SYNOPSIS
 

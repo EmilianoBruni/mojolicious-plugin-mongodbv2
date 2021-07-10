@@ -1,20 +1,14 @@
 =pod
 
-=encoding UTF-8
-
 =head1 NAME
 
 Mojolicious::Plugin::Mongodbv2 - MongoDB v2 driver in Mojolicious
 
-=begin html
-
-BUILD STATUS: <a href="https://travis-ci.com/EmilianoBruni/mojolicious-plugin-mongodbv2"><img src="https://travis-ci.com/EmilianoBruni/mojolicious-plugin-mongodbv2.svg?branch=main"></a>
-
-=end html
+=for html BUILD STATUS: <a href="https://travis-ci.com/EmilianoBruni/mojolicious-plugin-mongodbv2"><img src="https://travis-ci.com/EmilianoBruni/mojolicious-plugin-mongodbv2.svg?branch=main"></a>
 
 =head1 VERSION
 
-version 0.02
+version 0.04
 
 =head1 SYNOPSIS
 
@@ -24,6 +18,8 @@ Provides helper to easy use MongoDB v2 drivers in Mojolicious application.
         host => 'mongodb://localhost/mongodbv2',
         helper => 'db',
     }
+
+=encoding UTF-8
 
 =head1 CONFIGURATION OPTIONS
 
