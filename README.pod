@@ -8,7 +8,7 @@ Mojolicious::Plugin::Mongodbv2 - MongoDB v2 driver in Mojolicious
 
 =head1 VERSION
 
-version 0.04
+version 0.05
 
 =head1 SYNOPSIS
 
