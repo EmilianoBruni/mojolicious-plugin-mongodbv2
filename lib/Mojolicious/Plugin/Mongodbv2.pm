@@ -57,12 +57,14 @@ __END__
 
 =head1 SYNOPSIS
 
-Provides helper to easy use MongoDB v2 drivers in Mojolicious application.
-
     plugin 'mongodbv2', {
         host => 'mongodb://localhost/mongodbv2',
         helper => 'db',
     }
+
+=head1 DESCRIPTION
+
+Provides helper to easy use MongoDB v2 driver in Mojolicious application.
 
 =head1 CONFIGURATION OPTIONS
 
@@ -91,7 +93,7 @@ L<https://github.com/EmilianoBruni/mojolicious-plugin-mongodbv2/>.
 
 =head1 SUPPORT
 
-You can find documentation for this module with the perldoc command.
+You can find this documentation with the perldoc command too.
 
     perldoc Mojolicious::Plugin::Mongodbv2
 
