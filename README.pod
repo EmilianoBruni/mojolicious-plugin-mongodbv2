@@ -8,16 +8,18 @@ Mojolicious::Plugin::Mongodbv2 - MongoDB v2 driver in Mojolicious
 
 =head1 VERSION
 
-version 0.06
+version 1.00
 
 =head1 SYNOPSIS
-
-Provides helper to easy use MongoDB v2 drivers in Mojolicious application.
 
     plugin 'mongodbv2', {
         host => 'mongodb://localhost/mongodbv2',
         helper => 'db',
     }
+
+=head1 DESCRIPTION
+
+Provides helper to easy use MongoDB v2 driver in Mojolicious application.
 
 =encoding UTF-8
 
@@ -48,7 +50,7 @@ L<https://github.com/EmilianoBruni/mojolicious-plugin-mongodbv2/>.
 
 =head1 SUPPORT
 
-You can find documentation for this module with the perldoc command.
+You can find this documentation with the perldoc command too.
 
     perldoc Mojolicious::Plugin::Mongodbv2
 
